@@ -21,7 +21,7 @@ This is a React project that implements a variety of interactive UI components, 
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/Bhavukkanvaria/react-project`
-2. Navigate to the project directory: `cd ReactJS-Projects`
+2. Navigate to the project directory: `cd react-project`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
 
