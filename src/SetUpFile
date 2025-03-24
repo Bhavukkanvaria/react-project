@@ -1,0 +1,15 @@
+1) Node version should be atleast v18.18.0
+    if Not
+        nvm install v18.18.0
+        nvm use v18.18.0
+2) npm create vite@latest ReactJS-Projects -- --template react
+3) cd ReactJS-Projects
+4) npm install
+5) npm run dev
+
+
+for React Router
+npm install react-router-dom
+
+for tailwind css(https://tailwindcss.com/docs/installation/using-vite)
+npm install tailwindcss @tailwindcss/vite

@@ -1,0 +1,22 @@
+.scroll-wrapper{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    background-color: #075b0a;
+    color: #fff;
+}
+.scroll-indicator{
+    height: 10px;
+    width: 100%;
+    background-color: aliceblue;
+}
+.scroll-progress{
+    background-color: aqua;
+    height: 10px;
+    width: 0;
+}
+.data-container{
+    margin-top: 50px;
+}

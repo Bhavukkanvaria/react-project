@@ -1,0 +1,49 @@
+.pagaintion-component-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.pagination-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.product-img {
+    width: 160px;
+    height: 160px;
+}
+
+.pagination-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.page-no {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    &:hover{
+        background-color: #3d7fba;
+    }
+    &.selected{
+        background-color: beige;
+    }
+}

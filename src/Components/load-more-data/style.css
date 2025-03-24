@@ -1,0 +1,27 @@
+.load-more-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap:40px;
+    .data-wrapper{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap:20px
+    }
+    .product-image-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid;
+        /* width: 200px;
+        height: 200px; */
+        
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

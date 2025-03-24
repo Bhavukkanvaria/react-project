@@ -1,0 +1,27 @@
+.tab-wrapper{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    flex-direction: column;
+}
+.tab-item-wrapper{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-item{
+    background: #3d7fba;
+    color: #fff;
+    padding: 6px;
+    border-radius: 4px;
+    width: 100px;
+    cursor: pointer;
+    &.active{
+        border: 1px solid #fff;
+        background-color: blueviolet;
+    }
+}

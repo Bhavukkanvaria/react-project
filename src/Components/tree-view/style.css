@@ -1,0 +1,16 @@
+.tree-wrapper{
+    height: 100vh;
+    width: 300px;
+    background-color: #3d7fba;
+}
+
+.item-wrapper{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.list-item{
+
+}

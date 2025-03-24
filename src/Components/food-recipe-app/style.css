@@ -1,0 +1,46 @@
+.food-recipe-container{
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.food-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.food-input{
+    background: white;
+    padding: 10px;
+    outline: none;
+}
+.food-list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+}
+
+.food-home{
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.recipe-item{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    overflow: hidden;
+    padding: 20px;
+    gap: 5px;
+    border: 2px solid;
+}
+.recipe-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 160px;
+}
